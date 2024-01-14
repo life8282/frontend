@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.block {
+    border: 1px solid #000;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.my-image {
+    float: left;
+    margin-right: 10px;
+}
+
+/* .clear {
+    clear: left;
+    height: 4px;
+    background:  red;
+} */
+
+.clearfix::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+
+.main-block {
+    border: 1px solid red;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.my-text::before {
+    content: "Внимание!";
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.my-text::after {
+    content: "";
+    display: inline-block;
+    border:1px solid black;
+    color:green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* font-weight: bold;
+    font-size: 40px;
+    margin: 10px; */
+
+}
+
+.my-button {
+    border: 1px solid #000;
+    background-color: #1187e1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.my-button:hover {
+    cursor:pointer;
+    background-color: blueviolet;
+}
+
+.my-button:active {
+    background-color: green;
+}
+

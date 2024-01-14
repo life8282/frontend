@@ -1,0 +1,38 @@
+body {
+    background-color: lightsalmon;
+    font-size: 20px;
+}
+
+.header-style {
+    font-family:Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+.h4-title {
+    color: red;
+}
+
+.logo-matrix {
+    width: 280px;
+    height: 100px;
+}
+
+.span-text {
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;    
+}
+
+.ul-text {
+    font-size: 20px;
+    color: blue;
+    /* list-style-type: circle; */
+}
+
+table, th, td {
+    border: 1px dotted green;
+}
+
+th, td {
+    border-radius: 5%;
+}
